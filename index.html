@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<script
+			src="https://kit.fontawesome.com/214921259b.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Frontend Mentor | Intro component with sign up form</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="grid">
+				<div class="header">
+					<div class="header-wrap">
+						<h1 class="headline">
+							Learn to code by <br />
+							watching others
+						</h1>
+						<p class="description">
+							See how experienced developers solve problems in real-time.
+							Watching scripted tutorials is great, but understanding how
+							developers think is invaluable.
+						</p>
+					</div>
+				</div>
+
+				<div class="cta">
+					<div class="cta-wrap">
+						<div class="info-card">
+							Try it free 7 days
+							<span class="light-text"> then $20/mo. thereafter</span>
+						</div>
+
+						<form novalidate id="form" class="form">
+							<div class="form-control">
+								<input type="text" id="firstname" placeholder="First Name" />
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>Error message</small>
+							</div>
+							<div class="form-control">
+								<input type="text" id="lastname" placeholder="Last Name" />
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>Error message</small>
+							</div>
+							<div class="form-control">
+								<input type="email" id="email" placeholder="Email Address" />
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>Error message</small>
+							</div>
+							<div class="form-control">
+								<input type="password" id="password" placeholder="Password" />
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>Error message</small>
+							</div>
+							<button class="btn">CLAIM YOUR FREE TRIAL</button>
+							<div class="form-footer">
+								<p class="form-footer-text">
+									By clicking the button, you are agreeing to our
+									<span class="text-red">Terms and Services</span>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
