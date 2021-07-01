@@ -183,6 +183,10 @@ span.light-text {
 	margin-bottom: 0;
 }
 
+.form-footer-text a {
+	text-decoration: none;
+}
+
 span.text-red {
 	color: var(--red);
 	font-size: 12px;
@@ -228,6 +232,10 @@ span.text-red {
 @media (min-width: 1140px) {
 	body {
 		background-image: url(./images/bg-intro-desktop.png);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
 	}
 
 	.grid {
@@ -243,6 +251,7 @@ span.text-red {
 		grid-column-end: 3;
 		grid-row-start: 2;
 		grid-row-end: 4;
+		align-self: center;
 	}
 
 	.header-wrap {
@@ -255,6 +264,7 @@ span.text-red {
 		grid-row-start: 1;
 		grid-row-end: 5;
 		justify-self: end;
+		align-self: center;
 	}
 
 	.cta-wrap {
